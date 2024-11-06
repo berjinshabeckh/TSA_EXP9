@@ -15,6 +15,8 @@ To Create a project on Time series analysis on student score study hours using A
 6. Auto-fit the ARIMA model
 7. Evaluate model predictions
 ### PROGRAM:
+
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,11 +25,6 @@ from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
 from statsmodels.tsa.stattools import adfuller
 from sklearn.metrics import mean_squared_error
 
-# Step 1: Load Data
-# Assuming data is in CSV format, replace 'data.csv' with the actual file path
-# data = pd.read_csv('data.csv')
-# For demonstration, manually creating the dataset here
-# Creating the dataset manually (since it's provided in an image)
 df = pd.read_csv('score.csv')
 
 # Step 2: Plot the Time Series
@@ -84,8 +81,7 @@ plt.plot(predictions, label='Predicted', color='red')
 plt.legend()
 plt.title("ARIMA Predictions vs Actual Scores")
 plt.show()
-
-
+```
 ### OUTPUT:
 ![download](https://github.com/user-attachments/assets/a2724231-f9b9-4c98-84c1-8ef7bf123f94)
 
