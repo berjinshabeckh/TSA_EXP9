@@ -1,5 +1,8 @@
-# EX.NO.09        A project on Time series analysis on student score study hours using ARIMA model 
-### Date: 
+# EX.NO.09 A project on Time series analysis on student score study hours using ARIMA model 
+
+## Name:H.Berjin Shabeck
+## Reg no:212222240018
+## Date:26/10/2024
 
 ### AIM:
 To Create a project on Time series analysis on student score study hours using ARIMA model in  Python and compare with other models.
